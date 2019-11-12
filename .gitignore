@@ -1,0 +1,10 @@
+node_modules/
+key/
+tmp/
+out.*
+!out/.gitkeep
+example.edugolo.js
+config.js
+provision_edugolo.be.js
+*edugolo.be.jpeg
+README_DOMAIN_CONFIG.nl.md
