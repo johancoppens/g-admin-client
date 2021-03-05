@@ -15,13 +15,13 @@ const main = async () => {
 
     let res = null
 
-    res = await gAdmin.createUser({
-      firstName: 'Jane',
-      surName: 'Roe',
-      password: 'Pa55word',
-      email: 'jane.roe@example.com'
-    })
-    console.log(res)
+    // res = await gAdmin.createUser({
+    //   firstName: 'Jane',
+    //   surName: 'Roe',
+    //   password: 'Pa55word',
+    //   email: 'jane.roe@example.com'
+    // })
+    // console.log(res)
 
     // res = await gAdmin.updateUser({
     //   userKey: 'jane.roe@example.com',

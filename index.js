@@ -134,7 +134,7 @@ module.exports = (function () {
    * @see {@link ./examples/01_get_user_transform.js}
    */
   const getUser = async ({
-    userKey
+    userKey = r()
   } = {}) => {
     if (!_initialized) e('Module g-admin-client not initialized with init()')
     try {
