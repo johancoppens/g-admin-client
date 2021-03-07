@@ -240,13 +240,13 @@ module.exports = (function () {
    * @param {object} options
    * @param {string} options.userKey
    * @param {string} options.newPassword
-   * @param {string} [options.changePasswordAtNextLogin = false]
+   * @param {string} [options.changePasswordAtNextLogin = true]
    * @returns {Promise<Object>} User resource
    */
   const updateUserPassword = async ({
     userKey = r(),
     newPassword = r(),
-    changePasswordAtNextLogin = false
+    changePasswordAtNextLogin = true
   } = {}) => {
     if (!_initialized) e('Module g-admin-client not initialized with init()')
     const options = {
